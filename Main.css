@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+
+body{
+    background-image:url("1.jpg");
+    background-size: cover;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:250px;
+    width:250px;
+}
+.buttons{
+    border:none;
+    display:flex;
+    justify-content: space-around;
+}
+button{
+    height:100px;
+    width:200px;
+    border:0px;
+    font-size:20px;
+}
+button:hover{
+    background-color: red;
+    animation-name: colorChange;
+    animation-duration: 1s;
+}
+p{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'Yeon Sung';
+}
+h2{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Yeon Sung';
+}
+@keyframes colorChange{
+    0%  {background-color: white;
+        transform:scale(1)}
+    25% {background-color: orange;
+    }
+    50% {background-color: orangered;
+    }
+    100%{background-color: red;
+        transform:scale(1.2)}
+}
