@@ -21,6 +21,7 @@ button{
     width:200px;
     border:0px;
     font-size:20px;
+    border-radius: 10px;
 }
 button:hover{
     background-color: red;
@@ -43,11 +44,11 @@ h2{
 }
 @keyframes colorChange{
     0%  {background-color: white;
-        transform:scale(1)}
+    }
     25% {background-color: orange;
     }
     50% {background-color: orangered;
     }
     100%{background-color: red;
-        transform:scale(1.2)}
+    }
 }
